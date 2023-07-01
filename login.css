@@ -1,0 +1,107 @@
+body{
+	background-color: black;
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+	text-align: left;
+}
+.logo img{
+	width: 150px;
+	padding: 10px;
+}
+.form{
+	padding-left: 20px;
+	color: white;
+}
+.form h2{
+	font-size: 25px;
+}
+.form input[type=text]{
+	height: 34px;
+	width: 95%;
+	background: transparent;
+	outline: none;
+	border: none;
+	background-color: #1c1b1b;
+	padding-left: 10px;
+	border-radius: 3px;
+	color: white;
+}
+.form input[type=submit]{
+	height: 34px;
+	width: 97%;
+	outline: none;
+	border: none;
+	background-color: #e50913;
+	border-radius: 3px;
+	color: white;
+	}
+	.remember input[type=checkbox]{
+		width: 11px;
+		
+	}
+	.remember{
+		font-size: 11px;
+		margin-top: 5px;
+		color: gray;
+	}
+    .remember h3{
+    	float: right;
+    	margin-right: 20px;
+    	margin-top: 5px;
+    	font-size: 11px;
+    }
+
+    .sign-up{
+    	color: gray;
+    	font-size: 13px;
+    	padding: 20px;
+    	margin-top: 20px;
+    }
+    .sign-up a{
+    	text-decoration: none;
+    	color: white;
+    }
+
+    hr{
+    	border-bottom: gray;
+    }
+
+
+.footer{
+	color: gray;
+	font-size: 13px;
+	padding-left: 50px;
+	margin-top: 30px;
+	padding-bottom: 30px;
+	font-family: sans-serif;
+}
+.footer h3{
+	margin-bottom: 10px;
+}
+.footer-link{
+	display: inline-block;
+	margin-top: 15px;
+}
+.footer-link:not(:last-child){
+	margin-right: 20%;
+}
+.footer-link a{
+	color: gray;
+	text-decoration: none;
+	line-height: 1.5;
+}
+
+@media (min-width: 1000px){
+	body{
+		text-align: left;
+		width: 40%;
+		position: relative;
+		align-items: center;
+		justify-content: center;
+		border: 1px solid gray;
+		border-radius: 8px;
+		margin: auto;
+		margin-top: 15px;
+	}
+}
